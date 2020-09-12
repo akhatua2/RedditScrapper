@@ -1,11 +1,11 @@
 import praw
 import pandas as pd
 
-reddit = praw.Reddit(client_id="FqHWaAxcA8Ft4g",
-                     client_secret="__wR0Ue8GKF-24bM7mQANKZEH3g",
+reddit = praw.Reddit(client_id="********",
+                     client_secret="*******",
                      user_agent="RedditScrapper",
                      username="kugeltheblitz",
-                     password="8551Arpandeep")
+                     password="********")
 
 flairs = ["Housing"]
 
