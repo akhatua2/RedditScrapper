@@ -7,7 +7,7 @@ reddit = praw.Reddit(client_id="********",
                      username="kugeltheblitz",
                      password="********")
 
-flairs = ["Housing"]
+flairs = ["******"]
 
 subreddit = reddit.subreddit('UIUC')
 topics_dict = {"title": [], "comms_num": [], "body": [], }
