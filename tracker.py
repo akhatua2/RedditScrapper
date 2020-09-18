@@ -9,6 +9,7 @@ reddit = praw.Reddit(client_id="********",
 
 flairs = ["******"]
 
+
 subreddit = reddit.subreddit('UIUC')
 topics_dict = {"title": [], "comms_num": [], "body": [], }
 
