@@ -24,3 +24,5 @@ for flair in flairs:
 new_data = pd.DataFrame(topics_dict)
 
 new_data.to_csv("housing.csv")
+
+
